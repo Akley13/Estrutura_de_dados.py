@@ -1,4 +1,13 @@
-produtos = []
+# DICIONÁRIOS
+# Parecido com listas, porém, podemos colocsr textos nos índices.
 
-for x in range(5):
-    produtos.append(str(f'Digite o {x+1}° produto'))
+dados = {}
+
+dados = {'Nome':'Ricardo', 'Idade':'47', 'E-mail':'Akley@gmail.com'}
+print(dados)
+
+livros = {'titulo':'Senhor dos Anéis', 
+          'Autor': 'J. R. R Tollkien',
+          'Ano':'1954'
+          
+          }
